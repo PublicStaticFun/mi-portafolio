@@ -1,0 +1,22 @@
+{
+    "projectsData": [
+        {
+            "image": "/images/Portada_Student.png",
+            "name": "Sistema de Gestión de Alumnos",
+            "description": "Sistema de gestión de alumnos de una universidad",
+            "url": "https://github.com/PublicStaticFun/student_management_dj"
+        },
+        {
+            "image": "/images/MiniaturaGitHub.png",
+            "name": "Proximamente",
+            "description": "Proximamente descripcion",
+            "url": "https://github.com/PublicStaticFun"
+        },
+        {
+            "image": "/images/MiniaturaGitHub.png",
+            "name": "Proximamente",
+            "description": "Proximamente descripcion",
+            "url": "https://github.com/PublicStaticFun"
+        }
+    ]
+}
