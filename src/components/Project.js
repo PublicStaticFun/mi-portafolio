@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import projectsData from '../data/projectsData.json';
 
 function Project() {
-    const projectList = projectsData.map(p => ({
+    const projectList = projectsData.projectsData.map(p => ({
         ...p,
         image: `${process.env.PUBLIC_URL}${p.image}`
     }));
