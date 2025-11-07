@@ -22,7 +22,7 @@ const LoadingScreen = ({ onFinish }) => {
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-indigo-900 to-blue-700 text-white z-50">
       {/* GIF */}
       <motion.img
-        src="/images/two.gif" // 👈 Guarda tu GIF en /public/loading.gif
+        src={`${process.env.PUBLIC_URL}/images/two.gif`} // 👈 Guarda tu GIF en /public/loading.gif
         alt="Cargando..."
         className="w-24 h-24 mb-6"
         initial={{ scale: 0.8, opacity: 0 }}

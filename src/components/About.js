@@ -13,7 +13,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="bg-blue-200 p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
-                <img src='/images/twi.gif' alt='GIF de saludo' className='w-32 h-32 rounded-xl mb-4 object-cover'/>
+                <img src={`${process.env.PUBLIC_URL}/images/twi.gif`} alt='GIF de saludo' className='w-32 h-32 rounded-xl mb-4 object-cover'/>
                     <h2 className='text-2xl font-bold mb-2 text-blue-700'>¡Hola!</h2>
                     <p className='text-base leading-relaxed'>
                         Soy <span className='font-semibold text-blue-600'>Public Static Code</span>,
@@ -27,7 +27,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="bg-pink-200 p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
-                <img src='/images/giphy.gif' alt='GIF de saludo' className='w-32 h-32 rounded-xl mb-4 object-cover'/>
+                <img src={`${process.env.PUBLIC_URL}/images/giphy.gif`} alt='GIF de saludo' className='w-32 h-32 rounded-xl mb-4 object-cover'/>
                     <h2 className='text-2xl font-bold mb-2 text-pink-700'>Objetivo profesional</h2>
                     <p className='text-base leading-relaxed'>
                         Mi meta es continuar creciendo como desarrollador full stack,
@@ -43,7 +43,7 @@ const About = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="bg-green-200 mt-10 p-8 rounded-2xl shadow-md w-full max-w-4xl flex flex-col md:flex-row items-center gap-6">
                 <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 20, ease: "linear" }} className='flex-shrink-0' >
-                    <img src='/images/luz.jpg' alt='Foto de perfil' className='w-48 h-48 md:w-60 md:h-60 rounded-full border-8 border-white shadow-lg object-cover' />
+                    <img src={`${process.env.PUBLIC_URL}/images/luz.jpg`} alt='Foto de perfil' className='w-48 h-48 md:w-60 md:h-60 rounded-full border-8 border-white shadow-lg object-cover' />
                 </motion.div>
                 <div className='text-center md:text-left flex-1'>
                     <h3 className='text-2xl font-semibold mb-4 text-green-700'>

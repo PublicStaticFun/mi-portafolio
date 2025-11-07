@@ -14,30 +14,30 @@ const skillsData = {
   Frontend: {
     color: "from-blue-400 to-blue-600",
     skills: [
-      { name: "React", logo: "/logos/react.svg", startYear: 2024 },
-      { name: "HTML5", logo: "/logos/html.svg", startYear: 2021 },
-      { name: "CSS3", logo: "/logos/css.svg", startYear: 2021 },
+      { name: "React", logo: `${process.env.PUBLIC_URL}/logos/react.svg`, startYear: 2024 },
+      { name: "HTML5", logo: `${process.env.PUBLIC_URL}/logos/html.svg`, startYear: 2021 },
+      { name: "CSS3", logo: `${process.env.PUBLIC_URL}/logos/css.svg`, startYear: 2021 },
     ],
   },
   Backend: {
     color: "from-orange-400 to-red-500",
     skills: [
-      { name: "Django", logo: "/logos/django.svg", startYear: 2025 },
-      { name: "Python", logo: "/logos/python.svg", startYear: 2023 },
+      { name: "Django", logo: `${process.env.PUBLIC_URL}/logos/django.svg`, startYear: 2025 },
+      { name: "Python", logo: `${process.env.PUBLIC_URL}/logos/python.svg`, startYear: 2023 },
     ],
   },
   "Base de Datos": {
     color: "from-green-400 to-emerald-600",
     skills: [
-      { name: "PostgreSQL", logo: "/logos/postgresql.svg", startYear: 2025 },
+      { name: "PostgreSQL", logo: `${process.env.PUBLIC_URL}/logos/postgresql.svg`, startYear: 2025 },
     ],
   },
   "Otros lenguajes": {
     color: "from-purple-400 to-purple-600",
     skills: [
-      { name: "GIT", logo: "/logos/git.svg", startYear: 2025 },
-      { name: "npm", logo: "/logos/npm.svg", startYear: 2023 },
-      { name: "json", logo: "/logos/json.svg", startYear: 2023 },
+      { name: "GIT", logo: `${process.env.PUBLIC_URL}/logos/git.svg`, startYear: 2025 },
+      { name: "npm", logo: `${process.env.PUBLIC_URL}/logos/npm.svg`, startYear: 2023 },
+      { name: "json", logo: `${process.env.PUBLIC_URL}/logos/json.svg`, startYear: 2023 },
     ],
   },
 };

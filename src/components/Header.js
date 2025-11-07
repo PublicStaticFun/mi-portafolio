@@ -35,7 +35,7 @@ function Header() {
                 onClick={() => document.getElementById('contacto').scrollIntoView({ behavior: 'smooth' })}
                 >
                     <img 
-                        src="/ironmouse.png"  // Imagen desde public/
+                        src={`${process.env.PUBLIC_URL}/ironmouse.png`}  // Imagen desde public/
                         alt="Icono de Ironmouse" 
                         className="w-8 h-8 mr-2"  // Tamaño pequeño con margen
                     />¡Contactame!  {/* Texto fuera del <img> */}
@@ -50,7 +50,7 @@ function Header() {
                 onClick={() => window.open("/java.pdf", "_blank")}
                 >
                     <img 
-                        src="/moxxie.png"  // Imagen desde public/
+                        src={`${process.env.PUBLIC_URL}/moxxie.png`}  // Imagen desde public/
                         alt="Icono de Moxxie" 
                         className="w-8 h-8 mr-2"  // Tamaño pequeño con margen
                     />¡Curriculum!  {/* Texto fuera del <img> */}

@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import projectsData from '../data/projectsData.json';
 
 function Project() {
-    const projectList = projectsData.projectsData;
+    const projectList = projectsData.map(p => ({
+        ...p,
+        image: `${process.env.PUBLIC_URL}${p.image}`
+    }));
 
     return (
         <section id="proyectos" className="min-h-screen flex flex-col justify-center items-center text-white pt-20">
