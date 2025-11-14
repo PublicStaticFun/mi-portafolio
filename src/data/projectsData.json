@@ -7,10 +7,10 @@
             "url": "https://github.com/PublicStaticFun/student_management_dj"
         },
         {
-            "image": "/images/MiniaturaGitHub.png",
-            "name": "Proximamente",
-            "description": "Proximamente descripcion",
-            "url": "https://github.com/PublicStaticFun"
+            "image": "/images/Portada2.png",
+            "name": "Sistema de Financiamiento FinTrack",
+            "description": "Sistema de financiamiento creado por React y Django REST Framework",
+            "url": "https://github.com/PublicStaticFun/fintrack"
         },
         {
             "image": "/images/MiniaturaGitHub.png",
