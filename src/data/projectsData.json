@@ -13,10 +13,10 @@
             "url": "https://github.com/PublicStaticFun/fintrack"
         },
         {
-            "image": "/images/MiniaturaGitHub.png",
-            "name": "Proximamente",
-            "description": "Proximamente descripcion",
-            "url": "https://github.com/PublicStaticFun"
+            "image": "/images/Portada4.png",
+            "name": "Sistema de CRUD Northwind",
+            "description": "Sistema de CRUD Northwind creado por React, Django y PostgreSQL",
+            "url": "https://github.com/PublicStaticFun/northwind-dj-react"
         }
     ]
 }
