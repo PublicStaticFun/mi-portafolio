@@ -17,6 +17,12 @@
             "name": "Sistema de CRUD Northwind",
             "description": "Sistema de CRUD Northwind creado por React, Django y PostgreSQL",
             "url": "https://github.com/PublicStaticFun/northwind-dj-react"
+        },
+        {
+            "image": "/images/Portada6.png",
+            "name": "Sistema Biblioteca Backend Django",
+            "description": "Sistema Biblioteca creado por Django y PostgreSQL",
+            "url": "https://github.com/PublicStaticFun/biblioteca_django_api"
         }
     ]
 }
